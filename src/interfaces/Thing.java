@@ -62,4 +62,8 @@ class HulyImpl implements Huly{
 	//bury implementation into the interface.
 }
 
+//NOTE THAT IF I OVERRIDE IT IN BOTH CLASSES IE, FLYIMPL AND PERSONIMPL, THEN YOU NEED TO SPECIFY WHICH ONE....
+//YOU COULD DO Fly:eat(); 
+//uses abstraction over methods to push things up to the parent class.
+
 }
