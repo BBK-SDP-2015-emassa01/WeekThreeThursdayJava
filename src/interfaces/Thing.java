@@ -6,7 +6,7 @@ public interface Thing {
 	public default boolean alive() { //NOTE KEYWORD DEFAULT. IF WE DO NOT OVERRIDE IT, IT WILL RUN. NO COLLISION.
 		//WE CAN ALSO GET RID OF THE CODE FURTHER DOWN.BUT IF WE LEAVE IT IN, IT WILL BE OVERRIDDEN.
 		return false;
-	}
+	} // AS SOON AS YOU PUT DEFAULT IN YOU HAVE TO IMPLEMENT SOME CODE.
 }
 
 interface Fly extends Thing {
